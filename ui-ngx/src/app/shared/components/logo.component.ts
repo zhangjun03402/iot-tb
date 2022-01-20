@@ -24,6 +24,7 @@ import { Component } from '@angular/core';
 export class LogoComponent {
 
   logo = 'assets/logo_title_white.svg';
+  ///logo = 'assets/logo_title_white.jpg';
 
   gotoThingsboard(): void {
     window.open('https://thingsboard.io', '_blank');
